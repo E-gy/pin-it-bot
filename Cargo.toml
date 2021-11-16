@@ -1,0 +1,14 @@
+[package]
+name = "pin-it-bot"
+version = "0.0.1"
+authors = ["E-gy"]
+edition = "2018"
+description = "Discord bot for pinning messages with reactions"
+repository = "https://github.com/E-gy/pin-it-bot"
+license = "MIT"
+
+[dependencies]
+log = "^0.4"
+env_logger = "^0.9"
+serenity = { version = "^0.10", default-features = false, features = ["builder", "cache", "collector", "client", "gateway", "http", "model", "utils", "rustls_backend"] }
+tokio = { version = "^1.13", features = ["full"] }
