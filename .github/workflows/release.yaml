@@ -30,7 +30,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v1
       with:
-        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.tag }}
+        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
     - name: 🐳 Build & Push
       uses: docker/build-push-action@v1
       with:
