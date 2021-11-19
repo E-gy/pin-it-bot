@@ -7,6 +7,10 @@ description = "Discord bot for pinning messages with reactions"
 repository = "https://github.com/E-gy/pin-it-bot"
 license = "MIT"
 
+[[bin]]
+name = "pin-it-bot"
+path = "src/main.rs"
+
 [dependencies]
 log = "^0.4"
 env_logger = "^0.9"
