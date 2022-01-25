@@ -1,4 +1,4 @@
-[![https://discord.com/api/oauth2/authorize?client_id=910001318926614528&permissions=76800&scope=bot](https://dcbadge.vercel.app/api/shield/661942855534903306)]()
+[![Add 📌🤖 to your server](https://dcbadge.vercel.app/api/shield/661942855534903306)](https://discord.com/api/oauth2/authorize?client_id=910001318926614528&permissions=76800&scope=bot)
 
 # 📌 Discord Pin-it Bot 🤖
 
